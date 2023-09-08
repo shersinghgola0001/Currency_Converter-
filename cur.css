@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url('https://source.unsplash.com/1600x900/?currency');
+    color: rgb(20, 131, 235);
+    }
+
+
+h1 {
+    border: 2px solid black;
+    width: 40%;
+    margin: 45px auto;
+    background-color: antiquewhite;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+.converter {
+    margin-top: 20px;
+}
+#amount {
+    width: 11.5rem;
+    padding: 5px 0px 5px 0;
+    font-size: 25px;
+    height: 1.6rem;
+}
+select {
+    font-size: 30px;
+}
+button {
+    padding: 8px 16px;
+    background-color: #1431c2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 45px;
+    width: 10%;
+    font-size: large;
+    border-radius: 1s;
+}
+.result {
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+button:hover {
+    background-color: rgb(0, 139, 139);
+    border-radius: 8px;
+    transition: background-color border-radius 1s ease-out 0.1s;
+}
